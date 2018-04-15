@@ -2,17 +2,9 @@
 def fizzbuzz(int)
   if int % 3 == 0
     "Fizz"
-  end
-end
-
-def fizzbuzz(int)
-  if int % 5 == 0
+  elsif int % 5 == 0
     "Buzz"
-  end
+  elsif integer % 15 == 0
+  end 
 end
 
-def fizzbuzz(int)
-  if int % 15 == 0
-    "FizzBuzz"
-  end
-end
